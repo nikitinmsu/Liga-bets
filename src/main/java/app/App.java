@@ -1,12 +1,18 @@
 package app;
 
-import app.pages.LoginPage;
+import app.pages.ElectronicsPageYM;
+import app.pages.MainPageYM;
+import app.pages.TelevisionCatalogPageYM;
 
 public class App {
 
-    public LoginPage loginPage;
+    public MainPageYM mainPageYM;
+    public ElectronicsPageYM electronicsPageYM;
+    public TelevisionCatalogPageYM televisionCatalogPageYM;
 
     public App() {
-        loginPage = PageBuilder.buildLoginPage();
+        mainPageYM = PageBuilder.buildYandexMarketMainPage();
+        electronicsPageYM = PageBuilder.yandexMarketElectronicsPage();
+        televisionCatalogPageYM = PageBuilder.yandexMarketTelevisionCatalogPage();
     }
 }
