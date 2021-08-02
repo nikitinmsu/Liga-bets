@@ -1,0 +1,4 @@
+2021-07-29 10:38:47,174 INFO  Sample info message 
+2021-07-29 10:38:47,174 WARN  Sample warn message 
+2021-07-29 10:38:47,174 ERROR Sample error message 
+2021-07-29 10:38:47,175 FATAL Sample fatal message 
